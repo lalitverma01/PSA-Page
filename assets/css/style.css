@@ -14,8 +14,16 @@
 }
 
 /***** max-width *****/
+.max-w-326 {
+    max-width: 326px;
+}
+
 .max-w-363 {
     max-width: 363px;
+}
+
+.max-w-454 {
+    max-width: 454px;
 }
 
 .max-w-658 {

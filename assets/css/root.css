@@ -10,7 +10,7 @@
     /***** line-height *****/
     --lh-24: 24px;
     --lh-56: 56.64px;
-    --lh-: ;
+    --lh-59: 59.52px;
     --lh-: ;
     --lh-: ;
     --lh-: ;
@@ -19,6 +19,7 @@
     /***** color *****/
     --color-white: white;
     --color-black: black;
+    --color-kakitsubata-blue: #3E63AA;
 
 }
 
@@ -45,8 +46,8 @@
     line-height: var(--lh-56);
 }
 
-.lh- {
-    line-height: var();
+.lh-59 {
+    line-height: var(--lh-59);
 }
 
 .lh- {
@@ -71,4 +72,9 @@
 
 .lh- {
     line-height: var();
+}
+
+/***** color *****/
+.color-kakitsubata-blue {
+    color: var(--color-kakitsubata-blue);
 }
