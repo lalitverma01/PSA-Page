@@ -45,6 +45,10 @@
     max-width: 688px;
 }
 
+.wax-w-758 {
+    max-width: 758px;
+}
+
 .max-w-1140 {
     max-width: 1140px;
 }
@@ -127,6 +131,30 @@
     display: none !important;
 }
 
+/***** section-4 *****/
+.section-4-img {
+    width: 622px;
+    height: 440px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.card-border {
+    max-width: 354px;
+    width: 100%;
+    height: 440px;
+    border-radius: 12px;
+    padding: 24px;
+    border: 1px solid #E2E2E2;
+}
+
+.box-shadow {
+    background: #FFFFFF33;
+    width: 100%;
+    box-shadow: 0px 0px 10px 0px #0000001A;
+    padding: 44px 60px 44px 60px;
+    border-radius: 24px;
+}
 
 /***** media-queries *****/
 @media (max-width:991.98px) {
@@ -156,5 +184,15 @@
     .bg-color {
         background: #3E63AA03;
         backdrop-filter: blur(10px);
+    }
+}
+
+@media (max-width:575.98px) {
+    .box-shadow {
+        padding: 4px;
+    }
+
+    .card-border {
+        padding: 5px;
     }
 }
