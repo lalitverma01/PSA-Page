@@ -1,0 +1,74 @@
+:root {
+
+    /***** font-family *****/
+    --font-primary: "Outfit", serif;
+
+    /***** font-size *****/
+    --fs-md: 24px;
+    --fs-lg: 48px;
+
+    /***** line-height *****/
+    --lh-24: 24px;
+    --lh-56: 56.64px;
+    --lh-: ;
+    --lh-: ;
+    --lh-: ;
+    --lh-: ;
+    --lh-: ;
+
+    /***** color *****/
+    --color-white: white;
+    --color-black: black;
+
+}
+
+/***** font-family *****/
+.font-primary {
+    font-family: var(--font-primary);
+}
+
+/***** font-size *****/
+.fs-md {
+    font-size: var(--fs-md);
+}
+
+.fs-lg {
+    font-size: var(--fs-lg);
+}
+
+/***** line-height *****/
+.lh-24 {
+    line-height: var(--lh-24);
+}
+
+.lh-56 {
+    line-height: var(--lh-56);
+}
+
+.lh- {
+    line-height: var();
+}
+
+.lh- {
+    line-height: var();
+}
+
+.lh- {
+    line-height: var();
+}
+
+.lh- {
+    line-height: var();
+}
+
+.lh- {
+    line-height: var();
+}
+
+.lh- {
+    line-height: var();
+}
+
+.lh- {
+    line-height: var();
+}
