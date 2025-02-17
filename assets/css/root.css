@@ -9,20 +9,21 @@
 
     /***** line-height *****/
     --lh-24: 24px;
+    --lh-30: 30px;
+    --lh-33: 33px;
     --lh-56: 56.64px;
     --lh-59: 59.52px;
-    --lh-: ;
-    --lh-: ;
     --lh-: ;
     --lh-: ;
 
     /***** color *****/
     --color-white: white;
     --color-black: black;
+    --color-jupiter: #E2E2E2;
     --color-kakitsubata-blue: #3E63AA;
     --color-boatswain: #203257;
     --color-ironside: #7C7E82;
-
+    --bg-pico-void: #192C50;
 }
 
 /***** font-family *****/
@@ -44,20 +45,20 @@
     line-height: var(--lh-24);
 }
 
+.lh-30 {
+    line-height: var(--lh-30);
+}
+
+.lh-33 {
+    line-height: var(--lh-33);
+}
+
 .lh-56 {
     line-height: var(--lh-56);
 }
 
 .lh-59 {
     line-height: var(--lh-59);
-}
-
-.lh- {
-    line-height: var();
-}
-
-.lh- {
-    line-height: var();
 }
 
 .lh- {
