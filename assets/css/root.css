@@ -4,17 +4,17 @@
     --font-primary: "Outfit", serif;
 
     /***** font-size *****/
+    --fs-sm: 18px;
     --fs-md: 24px;
     --fs-lg: 48px;
 
     /***** line-height *****/
     --lh-24: 24px;
+    --lh-27: 27px;
     --lh-30: 30px;
     --lh-33: 33px;
     --lh-56: 56.64px;
     --lh-59: 59.52px;
-    --lh-: ;
-    --lh-: ;
 
     /***** color *****/
     --color-white: white;
@@ -32,6 +32,10 @@
 }
 
 /***** font-size *****/
+.fs-sm {
+    font-size: var(--fs-sm);
+}
+
 .fs-md {
     font-size: var(--fs-md);
 }
@@ -43,6 +47,10 @@
 /***** line-height *****/
 .lh-24 {
     line-height: var(--lh-24);
+}
+
+.lh-27 {
+    line-height: var(--lh-27);
 }
 
 .lh-30 {
@@ -61,23 +69,14 @@
     line-height: var(--lh-59);
 }
 
-.lh- {
-    line-height: var();
-}
-
-.lh- {
-    line-height: var();
-}
-
-.lh- {
-    line-height: var();
-}
-
-.lh- {
-    line-height: var();
-}
-
 /***** color *****/
 .color-kakitsubata-blue {
     color: var(--color-kakitsubata-blue);
+}
+
+@media (max-width:575.98px) {
+    :root {
+        --fs-md: 21px;
+        --fs-lg: 40px;
+    }
 }
