@@ -8,12 +8,23 @@
     min-height: 520px;
 }
 
+.bg-iamge-2 {
+    background-image: url(../image/png/slider-bg-img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 560px !important;
+}
+
 .background-color {
     background: #192C50 !important;
     backdrop-filter: blur(14.300000190734863px)
 }
 
 /***** max-width *****/
+.max-w-215 {
+    max-width: 215px;
+}
+
 .max-w-326 {
     max-width: 326px;
 }
@@ -28,6 +39,10 @@
 
 .max-w-658 {
     max-width: 658px;
+}
+
+.max-w-688 {
+    max-width: 688px;
 }
 
 .max-w-1140 {
@@ -80,6 +95,38 @@
     border: 1px solid var(--color-white);
     backdrop-filter: blur(4px)
 }
+
+/***** slider *****/
+.card-1 {
+    width: 267px;
+    height: 184px !important;
+    border-radius: 12px;
+    background: var(--color-white);
+    backdrop-filter: blur(4px);
+    box-shadow: 0px 2px 3.7px 0px #0000001A;
+}
+
+.slick-track {
+    display: flex !important;
+    gap: 24px;
+}
+
+.slick-dots li {
+    background-color: var(--color-ironside) !important;
+    width: 12px !important;
+    height: 12px !important;
+    border-radius: 24px;
+}
+
+.slick-dots li.slick-active {
+    background-color: var(--color-boatswain) !important;
+    width: 12px !important;
+}
+
+.slick-dots li button {
+    display: none !important;
+}
+
 
 /***** media-queries *****/
 @media (max-width:991.98px) {
