@@ -77,8 +77,8 @@
     max-width: 934px;
 }
 
-.max-w-966 {
-    max-width: 966px;
+.max-w-976 {
+    max-width: 976px;
 }
 
 .max-w-1140 {
@@ -223,6 +223,8 @@
 .slick-track {
     display: flex !important;
     gap: 24px;
+    margin-top: 48px;
+    margin-bottom: 22px;
 }
 
 .slick-dots li {
@@ -230,6 +232,8 @@
     width: 12px !important;
     height: 12px !important;
     border-radius: 24px;
+    margin-top: 24px;
+    padding-top: 24px;
 }
 
 .slick-dots li.slick-active {
@@ -264,6 +268,17 @@
     box-shadow: 0px 0px 10px 0px #0000001A;
     padding: 44px 60px 44px 60px;
     border-radius: 24px;
+}
+
+.vertical-line {
+    width: 46px;
+    height: 2px;
+    rotate: -90deg;
+    border-radius: 52px;
+    background-color: #3E63AA;
+    margin-top: -12px;
+    margin-bottom: 12px;
+
 }
 
 /***** section-5 *****/
@@ -396,5 +411,9 @@
 
     .box {
         padding: 20px;
+    }
+
+    .vertical-line {
+        display: none;
     }
 }
