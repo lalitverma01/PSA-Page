@@ -319,6 +319,10 @@
     max-width: 868px !important;
 }
 
+.section-5 {
+    margin-bottom: 150px;
+}
+
 /***** footer *****/
 .box {
     max-width: 1140px;
@@ -423,6 +427,10 @@
         margin-top: 80px !important;
         margin-bottom: 80px !important;
     }
+
+    .section-5 {
+        margin-bottom: 80px !important;
+    }
 }
 
 @media (max-width:575.98px) {
@@ -451,6 +459,10 @@
         margin-bottom: 60px !important;
     }
 
+    .section-5 {
+        margin-bottom: 60px !important;
+    }
+
     .py-12 {
         padding: 12px 0px 12px 0px;
     }
@@ -467,7 +479,11 @@
     .mt-120,
     .mt-104,
     .mb-104 {
-        margin-top: 50px !important;
-        margin-bottom: 50px !important;
+        margin-top: 40px !important;
+        margin-bottom: 40px !important;
+    }
+
+    .section-5 {
+        margin-bottom: 0px !important;
     }
 }
