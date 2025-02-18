@@ -74,9 +74,24 @@
     color: var(--color-kakitsubata-blue);
 }
 
+@media (max-width:767.98px) {
+    :root {
+        --fs-lg: 42px;
+        --lh-59: normal;
+    }
+}
+
 @media (max-width:575.98px) {
     :root {
         --fs-md: 21px;
-        --fs-lg: 40px;
+        --fs-lg: 35px;
+    }
+
+    .fs-14 {
+        font-size: 14px !important;
+    }
+
+    .fs-12 {
+        font-size: 12px !important;
     }
 }
