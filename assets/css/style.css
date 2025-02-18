@@ -29,7 +29,7 @@
 
 .background-color {
     background: var(--bg-pico-void) !important;
-    backdrop-filter: blur(14.300000190734863px)
+    backdrop-filter: blur(14.300000190734863px);
 }
 
 /***** max-width *****/
@@ -125,6 +125,10 @@
 
 .mb-68 {
     margin-bottom: 68px;
+}
+
+.mb-70 {
+    margin-bottom: 70px;
 }
 
 .mt-104 {
@@ -349,7 +353,8 @@
 }
 
 .footer-line {
-    border: 0.5px solid #000000;
+    border: 0.5px solid #000000 !important;
+    opacity: 40%;
 }
 
 .border-right {
